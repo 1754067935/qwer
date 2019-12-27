@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: .28rem;
+}
+.App,body,html,#root{
+    width: 100%;
+    height: 100%;
+}
+.App>div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  width: 100%;
+  height: 0.8rem;
+
+  display: flex;
+ 
+  
+}
+section{
+  flex: 1;
+  overflow: auto;
+}
+.Hleft{
+  width: 1.3rem;
+  height: 100%;
+line-height: 0.8rem;
+  text-align: center;
+}
+.Hcen{
+  flex: 1;
+  padding: .15rem 0rem;
+  box-sizing: border-box;
+ 
+}
+.Hcen>input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+ background: #eee;
+  border: 1px solid #eee;
+  border-radius:.1rem; 
+  text-align: center;
+  line-height: 0.6rem;
+  font-size: .24rem;
+ 
+}
+.Hrit{
+  width: 1.3rem;
+  height: 100%;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.dls{
+  width: 100%;
+  height: 3.4rem;
+border-bottom:.2rem solid #eee;
+padding-top:.2rem;
+
+box-sizing: border-box; 
+}
+.dls>dl{
+  width: 18%;
+  height: auto;
+  background: white;
+  float: left;
+
+  margin: .05rem .06rem;
+
+}
+.dls>dl>dt{
+  width: 100%;
+  height:1.1rem;
+}.dls>dl>dt>img{
+  display: block;
+  width: 1rem;
+  height: auto;
+  padding: .1rem .1rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.dls>dl>dd{
+  width: 100%;
+  line-height: 0.2rem;
+  text-align: center;
+  font-size: .25rem;
+  color: gray;
+
+}
+.h2s{
+  width: 100%;
+  line-height: 0.6rem;
+  width: 100%;
+  padding-left:.2rem;
+  box-sizing: border-box; 
+}
+.dlss{
+  width: 100%;
+  height: auto;
+}
+.dlss>dl{
+  width: 95%;
+  display: flex;
+  height: 1.8rem;
+
+  margin: 0 auto;
+  border-bottom:1px solid #eee;
+  box-sizing: border-box; 
+}
+.dlss>dl>dt{
+  width: 1.6rem;
+  height: 100%;
+
+
+}
+.dlss>dl>dt>img{
+  display: block;
+  width: 100%;
+  padding: .18rem 0rem;
+  box-sizing: border-box;
+  height: 100%;
+}
+.dlss>dl>dd{
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem .15rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.p1{
+  width: 100%;
+  height: 0.6rem;
+
+  line-height: 0.6rem;
+}
+.p2{
+  width: 100%;
+  height: 0.4rem;
+  font-size: .2rem;
+}
+
+.p3{
+  flex: 1;
+
+  line-height: 0.8rem;
+}
+#s1{
+  font-weight: bold;
+  color: orange;
+  font-size: .32rem;
+}
+span{
+  font-size: .24rem;
+}
+.ding{
+  position: absolute;
+  width: 1rem;
+  height: 0.6rem;
+ color: gray;
+  right: .1rem;
+  bottom: .2rem;
+  line-height: 0.8rem;
+  text-align: center;
+}
+section::-webkit-scrollbar{
+  display: none;
+}
+.imgs{
+  width: 100%;
+  height: auto;
+  border-bottom:1px solid #eee;
+  box-sizing: border-box; 
+}
+.imgs>img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.meidiv{
+  width: 100%;
+  height: 3.5rem;
+  padding-top:.1rem;
+  border-bottom:.2rem solid #eee; 
+  box-sizing: border-box; 
+
+
+}
+.meidiv>dl{
+    width: 19%;
+    height: 1.5rem;
+    background: white;
+    float: left;
+    margin: .01rem .18rem;
+    color: gray;
+}
+.meidiv>dl>dt{
+  width: 100%;
+  height: 1.2rem;
+}
+.meidiv>dl>dt>img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: .1rem .1rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}.meidiv>dl>dd{
+  width: 100%;
+  line-height: 0.3rem;
+  text-align: center;
+  font-size: .2rem;
+  
+}
+.uls{
+  width: 100%;
+  height: 0.8rem;
+border-bottom:1px solid #eee; 
+  display: flex;
+  box-sizing: border-box;
+
+}
+.uls>li{
+  flex: 1;
+  text-align: center;
+}.uls>li>select{
+  width:auto;
+  height: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: .24rem;
+}
+.divs{
+  width: 100%;
+  height:auto;
+ 
+}
+.divs>dl{
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  border-bottom:1px solid   #eeee;
+  box-sizing: border-box;
+  position: relative;
+}
+.divs>dl>dt{
+  width: 1.8rem;
+  height: 100%;
+
+
+}
+.divs>dl>dt>img{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: .25rem;
+}
+.divs>dl>dd{
+  flex: 1;
+padding-top:.2rem;
+padding: .15rem .05rem; 
+box-sizing: border-box; 
+}
+.dp1{
+  width: 100%;
+  font-weight: bold;
+  line-height: 0.4rem;
+}
+.dp2{
+  width: 100%;
+  height: 0.4rem;
+
+  line-height: 0.4rem;
+}
+.dp3{
+  width: 100%;
+  height: 0.4rem;
+color: gray;
+  line-height: 0.4rem;
+}
+.dp4{
+  color: green;
+  width: 100%;
+  padding-bottom:.12rem;
+
+
+  border-bottom:1px solid #eee;
+  box-sizing: border-box; 
+}
+.dp5{
+  width: 100%;
+  height:auto;
+  margin-top:.12rem; 
+font-size: .24rem;
+  line-height: 0.4rem;
+}
+.tn1{
+  width: 0.3rem;
+  height: 0.3rem;
+  border: none;
+  background: green;
+  text-align: center;
+  font-size: .15rem;
+  color: white;
+  
+}
+.dings{
+  position: absolute;
+  right: .25rem;
+  top: .4rem;
+  color: gray;
+  font-size: .2rem;
+}
+#hding{
+  width: 100%;
+  height: 0.8rem;
+
+  position: fixed;
+  top: 0px;
+  display: flex;
+}
+ 
+.headder_left{
+  width: 1rem;
+  text-align: center;
+  height: 100%;
+  line-height: 0.9rem;
+  color: white;
+  }
+ .headder_right{
+  width: 1rem;
+  height: 100%;
+  text-align: center;
+  }
+.headder_right span{
+     line-height: 0.9rem;
+     color: white;
+     font-size: .36rem;
+ }
+.headder_center{
+  flex:1;
+  padding: 0.16rem;
+  box-sizing: border-box;
+  position: relative;
+  }
+ .headder_center input{
+  width: 100%;
+    height: 100%;
+    border: 0px;
+    background: #fff9e5;
+    border-radius: 0.1rem;
+    text-indent: 0.5rem;
+  }
+.headder_center img{
+  position: absolute;
+  top: 0.25rem;
+  left: 0.2rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  }
